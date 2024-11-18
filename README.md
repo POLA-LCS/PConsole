@@ -18,7 +18,7 @@ and then `#include "Ponsole/ponsole.hpp"`
 ## Characteristics
 
 ### Color references
-`Color` is an enum which each color is an index of the actual console color palette. 
+`Color` is an enum which each color is an index of the actual console color palette.  
 This means that for example `Color::BLACK = 0` it's just the first color, not the `BLACK` color. 
 
 - **Default palette:** for the time being there's no way to modify the color palette.
