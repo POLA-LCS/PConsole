@@ -9,23 +9,23 @@
 1. Copy the file `ponsole.hpp` in your project.
 2. Make sure to include the file `winapi_tools.hpp` in the same directory.
 
-TIP: You can do:
-Ponsole/ 
-| ponsole.hpp 
-| winapi_tools.hpp 
+TIP: You can do:  
+Ponsole/  
+| ponsole.hpp  
+| winapi_tools.hpp  
 and then `#include "Ponsole/ponsole.hpp"` 
 
 ## Characteristics
 
 ### Color references
 `Color` is an enum which each color is an index of the actual console color palette.  
-This means that for example `Color::BLACK = 0` it's just the first color, not the `BLACK` color. 
-
+This means that for example `Color::BLACK = 0` it's just the first color, not the `BLACK` color.  
+  
 - **Default palette:** for the time being there's no way to modify the color palette.
 
 ### Font
-**Acts as a console font handler**. 
-You need to provide the memory of a `HANDLE` which can be the same as a `Console` instance. 
+**Acts as a console font handler**.  
+You need to provide the memory of a `HANDLE` which can be the same as a `Console` instance.  
 **You can change:**
 - Width (if supported)
 - Height
