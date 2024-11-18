@@ -10,9 +10,11 @@
 2. Make sure to include the file `winapi_tools.hpp` in the same directory.
 
 TIP: You can do:  
+```
 Ponsole/  
 | ponsole.hpp  
 | winapi_tools.hpp  
+```
 and then `#include "Ponsole/ponsole.hpp"` 
 
 ## Characteristics
