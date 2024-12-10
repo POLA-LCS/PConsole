@@ -1,4 +1,4 @@
-# Ponsole v1.0
+# Ponsole v1.2
 
 `Ponsole` is a C++ header that focus on a simple console management with WinAPI.
 
