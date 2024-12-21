@@ -12,10 +12,10 @@
 TIP: You can do:  
 ```
 Winsole/  
-| Winsole.hpp  
+| winsole.hpp  
 | winapi_tools.hpp  
 ```
-and then `#include "Winsole/Winsole.hpp"` 
+and then `#include "Winsole/winsole.hpp"` 
 
 ## Characteristics
 
@@ -45,7 +45,7 @@ Offers methods to:
 ## Usage example
 
 ```cpp
-#include "Winsole.hpp"
+#include "Winsole/winsole.hpp"
 
 int main() {
     Console console;
